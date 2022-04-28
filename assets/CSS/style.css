@@ -260,4 +260,24 @@ hr {
         padding: 0;
 
     }
+    #center-about { 
+        clear: both;
+        width: 100%;
+        float: left;
+        padding: 0;
+    }
+    hr {
+        display: none;
+    }
+}
+
+/* for medium size screen sizes from 950px wide and down */
+
+@media screen and (max-width: 950px)    {
+#menu {
+    clear: left;
+    float: left;
+    margin-bottom: 20px;
+    line-height: 25px;   
+}
 }
